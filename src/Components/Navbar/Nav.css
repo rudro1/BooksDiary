@@ -1,0 +1,8 @@
+.navbar li a:focus{
+   border-color: green;
+    border:2px solid rgba(14, 168, 14, 0.893);
+    color:green;
+    border-radius: 5px;
+    
+    
+}

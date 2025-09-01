@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Apur Sansar",
+    "author": "Satyajit Ray",
+    "image": "/src/images/banner.jpeg",
+    "description": "এটি 'আপুর ট্রিলজি'র শেষ সিনেমা, যেখানে আপুর জীবনের বিভিন্ন সমস্যার সঙ্গে তার ব্যক্তিগত জীবন ও সম্পর্কের গল্প তুলে ধরা হয়েছে।",
+    "review": "'Apur Sansar' poignantly portrays Apu’s journey as a husband and father, highlighting the joys and struggles of everyday life.",
+    "totalPages": 120,
+    "rating": 4.8,
+    "category": "Drama",
+    "tags": ["Cinema", "Classic", "Bangla"],
+    "publisher": "Ananda Publishers",
+    "yearOfPublishing": 1959
+  },
+  {
+    "id": 2,
+    "title": "Bokshi Bomkesh",
+    "author": "Sharadindu Bandyopadhyay",
+    "image": "/src/images/BokshiBomkesh.jpg",
+    "description": "বোমকেশ বক্ষীর গল্পগুলো গোয়েন্দা সাহিত্যের সেরা উদাহরণ। রহস্য, সাসপেন্স এবং মানসিক বিশ্লেষণ এখানে সুন্দরভাবে মিশেছে।",
+    "review": "Byomkesh Bakshi is a sharp and intuitive detective who solves mysteries with wit and observation, making him one of Bengali literature's most beloved characters.",
+    "totalPages": 220,
+    "rating": 4.7,
+    "category": "Detective",
+    "tags": ["Mystery", "Suspense", "Classic"],
+    "publisher": "Ananda Publishers",
+    "yearOfPublishing": 1932
+  },
+  {
+    "id": 3,
+    "title": "Pather Panchali",
+    "author": "Bibhutibhushan Bandopadhyay",
+    "image": "/src/images/potherpachali.jpg",
+    "description": "একটি গ্রামীণ পরিবারের জীবনের গল্প, যেখানে দারিদ্র্য, সুখ-দুঃখ এবং ছোট মানুষের জীবনচিত্র ফুটে উঠেছে।",
+    "review": "'Pather Panchali' is a moving portrayal of rural life in Bengal, capturing the innocence, struggles, and joys of a simple family with extraordinary detail.",
+    "totalPages": 300,
+    "rating": 4.9,
+    "category": "Novel",
+    "tags": ["Classic", "Family", "Bengali Literature"],
+    "publisher": "Ananda Publishers",
+    "yearOfPublishing": 1929
+  },
+  {
+    "id": 4,
+    "title": "Chander Pahar",
+    "author": "Bibhutibhushan Bandopadhyay",
+    "image": "/src/images/ChanderPahar.jpg",
+    "description": "এই বইটি একটি অ্যাডভেঞ্চার রোমাঞ্চকর কাহিনী, যেখানে শিকড়ের মানুষ আফ্রিকার অজানা জঙ্গলে সাহসী অভিযান চালাচ্ছে।",
+    "review": "'Chander Pahar' is an exciting adventure story that takes readers through the African wilderness alongside a brave protagonist, blending thrill and courage.",
+    "totalPages": 350,
+    "rating": 4.6,
+    "category": "Adventure",
+    "tags": ["Thriller", "Travel", "Classic"],
+    "publisher": "Ananda Publishers",
+    "yearOfPublishing": 1937
+  },
+  {
+    "id": 5,
+    "title": "Shesher Kobita",
+    "author": "Rabindranath Tagore",
+    "image": "/src/images/ShesherKabita.jpg",
+    "description": "রবীন্দ্রনাথের প্রেম ও জীবনের দর্শনকে সুন্দরভাবে তুলে ধরা কবিতা সংকলন, যা বাংলা সাহিত্যের এক অনন্য দৃষ্টান্ত।",
+    "review": "'Shesher Kobita' is a poetic exploration of love, life, and philosophy, highlighting Tagore’s mastery over language and emotion.",
+    "totalPages": 200,
+    "rating": 4.7,
+    "category": "Poetry",
+    "tags": ["Classic", "Romance", "Bangla Literature"],
+    "publisher": "Visva-Bharati Publications",
+    "yearOfPublishing": 1929
+  }
+]
