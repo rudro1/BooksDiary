@@ -13,12 +13,24 @@ return wishlists;
 }
 
 const setitemstowishlist=(id)=>{
+
 const read=JSON.parse(localStorage.getItem("store"));
+
 const wishlist=getwishitem();
 
 
 
-    (!wishlist.includes(id) && !read.includes(id)   ) && wishlist.push(id);
+    if(!wishlist.includes(id) )  { 
+        if(read ==null   )
+       { wishlist.push(id)
+
+       }
+
+       else if(!read.includes(id))
+       {
+         wishlist.push(id)
+       }
+       };
 
 const newdata=JSON.stringify(wishlist);
 localStorage.setItem("wish-list",newdata);
