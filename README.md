@@ -1,12 +1,21 @@
-# React + Vite
+☕ Coffee & Chapters 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cozy online library where book lovers can explore, track, and organize their favorite books. From Bengali classics to international masterpieces, Coffee & Chapters brings literature to your fingertips.
 
-Currently, two official plugins are available:
+🔗 Live Demo: https://coffee-and-chapter.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features:
+📖 Browse Books: Explore books across genres like Drama, Detective, Novel, Poetry, Fantasy, and more.
+🔍 Detailed Book Pages: View reviews, ratings, tags, publisher info, and total pages.
+💚 Read & Wishlist Tracking: Mark books as read or add them to your wishlist.
+📱 Responsive Design: Works seamlessly on desktop, tablet, and mobile devices.
+🌟 Smooth UI/UX: Intuitive navigation with a sticky navbar, dropdown sorting, and clean layout.
+🔮 Future Enhancements: User accounts, personalized recommendations, and social sharing.
 
-## Expanding the ESLint configuration
+🛠️ Technologies Used
+Frontend: React.js ⚛️
+Routing: React Router DOM 🛣️
+Styling: Tailwind CSS & DaisyUI 🎨
+State Management: React Context API & Local Storage 💾
+Deployment: Netlify 🚀
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
