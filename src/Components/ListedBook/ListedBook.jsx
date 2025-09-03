@@ -30,18 +30,46 @@ const ListedBook = () => {
 
 
   }, [])
-  console.log(readboi)
  
-  const sorting = () => {
+  const sorting = (name) => {
     // console.log(ref.current)
     let newboook = [...readboi]
-    newboook = newboook.sort((a, b) => {
+
+    if(name==="Rating")
+    {
+console.log(name)
+       
+      newboook = newboook.sort((a, b) => {
+       
+ 
       a = (a.rating)
       b = (b.rating)
       return a - b
 
-
     })
+  }
+
+  else if(name==="Number of pages")
+  {
+
+newboook=newboook.sort((a,b)=>{
+a=parseInt(a.totalPages)
+b=parseInt(b.totalPages)
+return a-b;
+
+})
+
+  }
+  else if(name==="Publisher year")
+  {
+newboook=newboook.sort((a,b)=>{
+// console.log(typeof a.yearOfPublishing)
+a=parseInt(a.yearOfPublishing)
+b=parseInt(b.yearOfPublishing)
+return a-b
+
+})
+  }
 
 
     //     setbook(readboisort((a,b)=>{
@@ -63,9 +91,9 @@ const ListedBook = () => {
         <div className="dropdown dropdown-bottom dropdown-center ">
           <div tabIndex={0} role="button" className="btn px-3 py-5   rounded-lg bg-[#23BE0A] font-semibold text-white text-lg flex items-center">Sort By <GoChevronDown className='font-extrabold text-lg'></GoChevronDown></div>
           <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-            <li onClick={() => sorting()}><a>Rating</a></li>
-            <li><a>Number of pages</a></li>
-            <li><a>Publisher year</a></li>
+            <li onClick={() => sorting("Rating")}><a>Rating</a></li>
+            <li onClick={() => sorting("Number of pages")}><a>Number of pages</a></li>
+            <li onClick={() => sorting("Publisher year")}><a>Publisher year</a></li>
           </ul>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <li><NavLink to={'/'}>Home</NavLink></li>
             <li><NavLink to={'/ListedBook'}>Listed Books</NavLink></li>
-            <li><NavLink to={'Read'}>Pages to Read</NavLink></li>
+            <li><NavLink to={'/Read'}>Pages to Read</NavLink></li>
             <li className='lg:hidden mb-2 mt-1'>  <a className="btn   font-semibold px-5 text-lg text-white bg-green-500 rounded-lg py-5">Sign In</a></li>
            <li className='lg:hidden mb-2 mt-1'>     <a className="btn  bg-[#59C6D2] rounded-lg text-lg text-white px-5 py-5 ">Sign Up</a></li>
 
